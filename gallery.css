@@ -71,6 +71,7 @@
     padding: 40px 20px;
 }
 .gallery-grid{
+  padding-top: 30px;
     display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
@@ -84,4 +85,10 @@
 }
 .grid-item img:hover {
   transform: scale(1.03);
+}
+.features{
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bolder;
 }
