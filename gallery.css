@@ -34,13 +34,17 @@
   font-size: 20px;
   padding: 3%;
 }
+.text-top p{
+  font-size: 20px;
+}
 .text-top h1{
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .overlay-img {
   width: 400px;
   height: auto;
+  filter: brightness(60%);
 }
 
 .overlay-img img {
