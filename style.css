@@ -50,6 +50,7 @@ nav a.active {
   
   margin: 52px auto 0; 
   overflow: hidden;
+  position: relative;
 }
 
 .banner img {
@@ -277,4 +278,86 @@ a.external-link {
 
 a.external-link:hover {
   color: #0b47a1;
+}
+
+
+@media (max-width: 1024px) {
+  .banner img {
+    height: 600px;
+  }
+
+  .banner-text {
+    font-size: 32px;
+    padding: 15px 25px;
+  }
+
+  .training-content {
+    padding: 30px;
+  }
+
+  .training-content h2 {
+    font-size: 30px;
+  }
+
+  .training-content p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner img {
+    height: 400px;
+  }
+
+  .banner-text {
+    font-size: 26px;
+    padding: 12px 20px;
+  }
+
+  .training-container {
+    flex-direction: column;
+  }
+
+  .training-image,
+  .training-content {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .training-content h2 {
+    font-size: 28px;
+  }
+
+  .training-content p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner img {
+    height: 300px;
+  }
+
+  .banner-text {
+    font-size: 20px;
+    padding: 10px 15px;
+  }
+
+  .training-content h2 {
+    font-size: 24px;
+  }
+
+  .training-content p {
+    font-size: 14px;
+  }
+
+  .btn-learn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 30px 15px 15px;
+  }
 }

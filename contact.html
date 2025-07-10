@@ -45,16 +45,20 @@
     <div class="contact-form">
       <h2>Your Details</h2>
       <p>Let us know how to get back to you.</p>
-      <form id="form-details">
+      <form id="form-details" method="post" action="submit.php">
         <input type="text" id="name" placeholder="Name">
         <input type="email" id="email" placeholder="Email Address">
         <input type="text"  id="order" placeholder="Order">
         <textarea rows="5" id="comments" placeholder="Comments "></textarea>
         <button type="submit">Contact Us</button>
       </form>
+      <div id="confirmation-message" style="display: none; color: rgb(255, 255, 255); margin-top: 20px;">
+  Thank you! Your message has been submitted.
+</div>
+
       <script src="contact.js"></script>
     </div>
-  </section>
+  </section> 
 </body>
 </html>
 
