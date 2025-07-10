@@ -124,7 +124,7 @@ input[type="radio"] {
   transform: scale(1.05);
 }
 
-/* Navigation Dots */
+
 .nav-buttons {
   text-align: center;
   margin-top: 10px;
@@ -153,7 +153,7 @@ input[type="radio"] {
   transform: translateX(-300%);
 }
 
-/* Footer */
+
 footer {
     background: #6f4e37;
   color: #f3d8b1;
@@ -187,7 +187,6 @@ footer {
   font-size: 14px;
   color: #ccc;
 }
-/* Responsive Styles */
 
 @media (max-width: 1024px) {
   .top {

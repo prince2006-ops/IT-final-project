@@ -1,4 +1,4 @@
-/* Reset & base */
+
 * {
   margin: 0;
   padding: 0;
@@ -7,13 +7,13 @@
 }
 
 body {
-  background: #f5f0e6; /* light coffee cream */
+  background: #f5f0e6; 
   color: #333;
   margin: 0 auto;
   padding: 0;
 }
 
-/* Navigation Bar */
+
 nav {
   position: fixed;
   top: 0;
@@ -28,7 +28,7 @@ nav {
 }
 
 nav a {
-  color: #000000; /* cream */
+  color: #000000; 
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
@@ -37,15 +37,15 @@ nav a {
 }
 
 nav a:hover {
-  color: #c0a060; /* gold-ish highlight */
+  color: #c0a060; 
 }
 
-/* Active link style */
+
 nav a.active {
   border-bottom: 2px solid #c0a060;
 }
 
-/* Banner */
+
 .banner {
   
   margin: 52px auto 0; 
@@ -60,7 +60,6 @@ nav a.active {
   filter: brightness(70%);
 }
 
-/* Centered text over the image */
 .banner-text {
   position: absolute;
   top: 70%;
@@ -206,7 +205,7 @@ nav a.active {
   color: #fff;
 }
 
-/* Footer */
+
 footer {
   background: #6f4e37;
   color: #f3d8b1;
@@ -264,13 +263,13 @@ footer {
 .head{
   text-align: center;
 }
-/* Headings */
+
 h1, h2 {
   color: #6f4e37;
   margin-bottom: 20px;
 }
 
-/* External link styles */
+
 a.external-link {
   color: #1a73e8;
   text-decoration: underline;

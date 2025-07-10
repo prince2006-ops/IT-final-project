@@ -9,13 +9,12 @@ document.getElementById("form-details").onsubmit = function(e) {
     if (name === "" || email === "" || order === "" || comments === "") {
         alert("All details need to be filled!!!");
     } else {
-        // Optionally hide the form
-        // document.getElementById("form-details").style.display = "none";
+      
 
-        // Show confirmation
+    
         document.getElementById("confirmation-message").style.display = "block";
 
-        // Clear the form (keeps placeholder intact)
+       
         document.getElementById("form-details").reset();
     }
 };

@@ -12,8 +12,8 @@
 
 .image-wrapper img {
     width: 100%;
-    height: auto; /* Changed to auto for responsiveness */
-    max-height: 600px; /* Optional: to prevent it from getting too tall */
+    height: auto; 
+    max-height: 600px; 
     filter: brightness(60%);
     object-fit: cover;
 }
@@ -23,7 +23,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 5vw; /* Responsive font size */
+    font-size: 5vw; 
     color: #000;
     font-weight: bolder;
     background-color: #fff;
@@ -116,7 +116,7 @@
     background-color: #b88f54;
 }
 
-/* Responsive Enhancements */
+
 @media (min-width: 768px) {
     .contact_us .left,
     .contact_us .right,
