@@ -10,7 +10,6 @@ function showSlide(index) {
 setInterval(() => {
   currentIndex = (currentIndex + 1) % slides.length;
   showSlide(currentIndex);
-}, 2000);  // change image every 4 seconds
+}, 2000);  
 
-// Show the first slide initially
 showSlide(currentIndex);

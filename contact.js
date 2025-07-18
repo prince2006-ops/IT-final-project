@@ -1,5 +1,5 @@
 document.getElementById("form-details").onsubmit = function(e) {
-    e.preventDefault(); // Stop form from refreshing the page
+    e.preventDefault(); 
 
     var name = document.getElementById("name").value.trim();
     var email = document.getElementById("email").value.trim();
@@ -13,8 +13,6 @@ document.getElementById("form-details").onsubmit = function(e) {
 
     
         document.getElementById("confirmation-message").style.display = "block";
-
-       
         document.getElementById("form-details").reset();
     }
 };
